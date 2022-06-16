@@ -1,8 +1,7 @@
 name: default
 
 service: 
-- name: web
-  image: gcr.io/jmahood-demo/sr:latest
+- name: hello
   resources:
   - ref: redis/web-redis
  
