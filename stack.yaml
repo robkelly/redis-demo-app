@@ -8,7 +8,7 @@ service:
  
 router:
 - name: web-router
-  domain: serverless.jmahood.com
+  domain: serverless.robkelly.me
   default-route:
     ref: service/web
 
